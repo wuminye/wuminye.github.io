@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wangyiteng Zhou | Minye Wu Homepage </title>
+    <link>https://wuminye.com/author/wangyiteng-zhou/</link>
+      <atom:link href="https://wuminye.com/author/wangyiteng-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wangyiteng Zhou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>&amp;copy Minye Wu, 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wuminye.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Wangyiteng Zhou</title>
+      <link>https://wuminye.com/author/wangyiteng-zhou/</link>
+    </image>
+    
+    <item>
+      <title>4D Human Body Correspondences from Panoramic Depth Maps</title>
+      <link>https://wuminye.com/publication/li-20184-d/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wuminye.com/publication/li-20184-d/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
