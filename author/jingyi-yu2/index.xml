@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ning Bi | Minye Wu Homepage </title>
-    <link>https://wuminye.com/author/ning-bi/</link>
-      <atom:link href="https://wuminye.com/author/ning-bi/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ning Bi</description>
+    <title>Jingyi Yu2 | Minye Wu Homepage </title>
+    <link>https://wuminye.com/author/jingyi-yu2/</link>
+      <atom:link href="https://wuminye.com/author/jingyi-yu2/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jingyi Yu2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Minye Wu, 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wuminye.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Ning Bi</title>
-      <link>https://wuminye.com/author/ning-bi/</link>
+      <title>Jingyi Yu2</title>
+      <link>https://wuminye.com/author/jingyi-yu2/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://wuminye.com/publication/wu-2020-visual/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://wuminye.com/publication/wu-2020-visual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiview Vehicle Tracking by Graph Matching Model.</title>
-      <link>https://wuminye.com/publication/wu-2019-multiview/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://wuminye.com/publication/wu-2019-multiview/</guid>
       <description></description>
     </item>
     
