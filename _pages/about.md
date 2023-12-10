@@ -13,25 +13,23 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 
 
 <div class="row">
-  <div class="column" style="float: left; width: 40%;">
-    <!-- 第一列内容 -->
-    <h3>Research Interests</h3>
-    <ul>
-      <li>Neural Rendering</li>
-      <li>computer vision</li>
-      <li>computational photography</li>
-    </ul>
-  </div>
-  <div class="column" style="float: right; width: 60%;">
-    <!-- 第二列内容 -->
-    <h3>Education</h3>
-    <ul>
-      <li>[Ph.D.] University of Chinese Academy of Sciences, 2021</li>
-      <li>[Bachelor] Shanghai University, 2015</li>
-    </ul>
-  </div>
+<div class="column" style="float: left; width: 40%;"><!-- 第一列内容 -->
+<h3>Research Interests</h3>
+<ul>
+<li>Neural Rendering</li>
+<li>Computer Vision</li>
+<li>Computational Photography</li>
+</ul>
 </div>
-<div style="clear: both;"></div>
+<div class="column" style="float: right; width: 60%;"><!-- 第二列内容 -->
+<h3>Education</h3>
+<ul>
+<li><strong>[Ph.D.] </strong>University of Chinese Academy of Sciences, 2021</li>
+<li><strong>[Bachelor]</strong> Shanghai University, 2015</li>
+</ul>
+</div>
+</div>
+<div style="clear: both;">&nbsp;</div>
 
 
 # Pubilications
