@@ -39,3 +39,19 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
   <h2>{{ publication.title }}</h2>
   <p>{{ publication.excerpt }}</p>
 {% endfor %}
+
+
+
+<!-- Default Statcounter code for homepage https://wuminye.github.io/ -->
+<script type="text/javascript">
+var sc_project=12948099; 
+var sc_invisible=1; 
+var sc_security="0b88a620"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12948099/0/0b88a620/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
