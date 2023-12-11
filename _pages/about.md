@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a Postdoctoral Researcher in the VISICS lab, which is part of ESAT-PSI at Katholieke Universiteit Leuven, under the mentorship of [Prof. Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). I obtained my Ph.D. degree from the VDI Center at the School of Information Science and Technology, ShanghaiTech University, where I was supervised by [Prof. Jingyi Yu](http://www.yu-jingyi.com/cv/).
+I am currently working as a Postdoctoral Researcher in the VISICS lab, which is part of ESAT-PSI at Katholieke Universiteit Leuven, under the mentorship of [Prof. Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). I obtained my Ph.D. degree from the VDI Center at the School of Information Science and Technology, ShanghaiTech University, where I was supervised by [Prof. Jingyi Yu](http://www.yu-jingyi.com/cv/). I earned my Doctorate (Ph.D.) from the University of the Chinese Academy of Sciences, with ShanghaiTech University as my main training institution, in 2021. I received my Bachelor's degree from Shanghai University in 2015.
 
 
 
-My research interests lie at the intersection of Neural Rendering, Computer Vision, and Computational Photography, which are areas that I believe are reshaping the way we interact with and interpret the digital world. I earned my Doctorate (Ph.D.) from the University of the Chinese Academy of Sciences, with ShanghaiTech University as my main training institution, in 2021. I received my Bachelor's degree from Shanghai University in 2015.
+My research interests lie at the intersection of Neural Rendering, Computer Vision, and Computational Photography, which are areas that I believe are reshaping the way we interact with and interpret the digital world. 
 
 
 # Projects
