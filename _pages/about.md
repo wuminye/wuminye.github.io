@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Minye Wu's Homepage"
-excerpt: "Minye Wu's Homepage"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -62,6 +62,16 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
         <div>
             <div class="ns-project-title">Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos</div>
             <div class="ns-project-description">ReRF enables highly compressible and streamable radiance field modeling. Our ReRF-based codec scheme and streaming player gives users a rich interactive experience.</div>
+        </div>
+    </div>
+  </a>
+
+  <a href="https://wuminye.github.io/projects/NeVRF/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/NeVRF.jpg" alt="NeVRF">
+        <div>
+            <div class="ns-project-title">NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences</div>
+            <div class="ns-project-description">NeVRF marries neural radiance field with image-based rendering to support photo-realistic novel view synthesis on long-duration dynamic scenes.</div>
         </div>
     </div>
   </a>

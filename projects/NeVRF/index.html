@@ -4,27 +4,27 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="TeTriRF Project Page">
-  <meta property="og:title" content="TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video"/>
-  <meta property="og:description" content="TeTriRF Project Page"/>
+  <meta name="description" content="NeVRF">
+  <meta property="og:title" content="NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences"/>
+  <meta property="og:description" content="NeVRF"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="../images/TeTriRF.jpg" />
+  <meta property="og:image" content="../images/NeVRF.jpg" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video">
-  <meta name="twitter:description" content="Efficient Free-Viewpoint Video">
+  <meta name="twitter:title" content="NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences">
+  <meta name="twitter:description" content="NeVRF">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="../images/TeTriRF.jpg">
-  <meta name="twitter:card" content="TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video">
+  <meta name="twitter:image" content="../images/NeVRF.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="TeTriRF NeRF FVV">
+  <meta name="keywords" content="NeRF FVV NeVRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video</title>
+  <title>NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences</title>
   
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -53,22 +53,19 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video</h1>
+            <h1 class="title is-1 publication-title">NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences</h1>
             <div class="is-size-5 publication-authors">
                <!--Paper authors -->
               <span class="author-block">
                 <a href="https://wuminye.github.io/" target="_blank">Minye Wu</a>,</span>
-                <span class="author-block">
-                  <a href="" target="_blank">Zehao Wang</a>,</span>
-                  <span class="author-block">
-                    <a href="" target="_blank">Georgios Kouros</a>,</span>
+                
                   <span class="author-block">
                     <a href="https://www.esat.kuleuven.be/psi/TT" target="_blank">Tinne Tuytelaars</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">KU Leuven</span>
+                    <span class="author-block">KU Leuven <br> International Conference on 3D Vision 2024</span>
                     <!--<span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
                   </div>
 
@@ -132,7 +129,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <iframe width="960" height="540" src="https://www.youtube.com/embed/2DDcrGpVDTI?si=xmM24Nsf4zdkfUco" title="TeTriRF" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="960" height="540" src="https://www.youtube.com/embed/I-PQ5AevMeA?si=NG5Gbn55V9BKzxXQ" title="NeVRF" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -147,10 +144,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Neural Radiance Fields (NeRF) revolutionize the realm of visual media by providing photorealistic Free-Viewpoint Video (FVV) experiences, offering viewers unparalleled immersion and interactivity. However, the technology's significant storage requirements and the computational complexity involved in generation and rendering currently limit its broader application. To close this gap, this paper presents Temporal Tri-Plane Radiance Fields (TeTriRF), a novel technology that significantly reduces the storage size for Free-Viewpoint Video (FVV) while maintaining low-cost generation and rendering. TeTriRF introduces a hybrid representation with tri-planes and voxel grids to support scaling up to long-duration sequences and scenes with complex motions or rapid changes. 
-We propose a group training scheme tailored to achieving high training efficiency and yielding temporally consistent, low-entropy scene representations. 
-Leveraging these properties of the representations, we introduce a compression pipeline with off-the-shelf video codecs, achieving an order of magnitude less storage size compared to the state-of-the-art. 
-Our experiments demonstrate that TeTriRF can achieve competitive quality with a higher compression rate.
+            Adopting Neural Radiance Fields (NeRF) to long-duration dynamic sequences has been challenging. Existing methods struggle to balance between quality and storage size and encounter difficulties with complex scene changes such as topological changes and large motions. To tackle these issues, we propose a novel neural video-based radiance fields (NeVRF) representation. NeVRF marries neural radiance field with image-based rendering to support photo-realistic novel view synthesis on long-duration dynamic inward-looking scenes. We introduce a novel multi-view radiance blending approach to predict radiance directly from multi-view videos. By incorporating continual learning techniques, NeVRF can efficiently reconstruct frames from sequential data without revisiting previous frames, enabling long-duration free-viewpoint video. Furthermore, with a tailored compression approach, NeVRF can compactly represent dynamic scenes, making dynamic radiance fields more practical in real-world scenarios. Our extensive experiments demonstrate the effectiveness of NeVRF in enabling long-duration sequence rendering, sequential data reconstruction, and compact data storage.
           </p>
         </div>
       </div>
@@ -165,55 +159,27 @@ Our experiments demonstrate that TeTriRF can achieve competitive quality with a 
     <div class="columns is-centered has-text-centered">
       <div class="column ">
         <h2 class="title is-3">Method</h2>
-        <img src="static/images/representation.png" alt="TeTriRF Representation"/>
+        <img src="static/images/NeVRF_1.jpg" alt="NeVRF Rendering"/>
         <h2 class="content has-text-justified">
-          <strong>(a)</strong> For each frame in the stream, we factorize the radiance field to a tri-plane and a 3D density grid. 
-          This hybrid approach effectively captures high-dimensional appearance features in compact planes and enables efficient point sampling through the explicit density grid, 
-          achieving a balance between compactness and representation effectiveness. 
-          <br>
-          <strong>(b)</strong> Building upon this hybrid representation, we adopt  a deferred shading model paired with lightweight
-          MLP decoders to bring real-time rendering within reach.
+          NeVRF exploits the multi-view radiance blending method to predict its RGB color as the density is directly interpolated on the density grid.
         </h2>
         <hr>
-        <img src="static/images/training.png" alt="TeTriRF Training"/>
+        <img src="static/images/NeVRF_3.jpg" alt="NeVRF Training" style="width: 60%;"/>
         <h2 class="content has-text-justified">
-          The proposed training strategy that groups consecutive
-          frames from sequential data and reduces the entropy of the
-          frame representations via imposing temporal consistency
-          by deploying intra-group and inter-group regularizers. By
-          sharing temporal information during training, TeTriRF is
-          able to dramatically accelerate training compared to the per-
-          frame training methods.
-        </h2>
+          We develop a ray-based retraining strategy to combat the catastrophic forgetting in blending networks when processing sequential data. 
+          </h2>
         <hr>
-        <img src="static/images/compression.png" alt="TeTriRF Compression" style="width: 60%;"/>
+        <img src="static/images/NeVRF_2.jpg" alt="NeVRF Compression" style="width: 60%;"/>
         <h2 class="content has-text-justified">
-          We develop a compression pipeline specifically for TeTriRF, which includes processes such as value quantization, removal of empty spaces, conversion into 2D
-serialization, and subsequent video encoding. 
+          We employ Singular Value Decomposition (SVD) to break down the density grids, retaining only the top singular values to eliminate insignificant signals. The multi-view videos are compressed using the H.265 codec, maintaining a bitrate of 1 Mbps for each view.
         </h2>
+        
         <hr>
         <h2 class="title is-3">Results</h2>
-        <img src="static/images/exp5.png" alt="results" />
+        <img src="static/images/gallery.jpg" alt="results" />
         <h2 class="content has-text-centered">
-          Comparative analysis of training speed and storage capacity using the ReRF dataset. 
+          Gallery of rendered examples. Our neural pipeline enables efficient training and photo-realistic rendering for dynamic scenes. The results are all rendered at novel viewpoints
         </h2>
-        <img src="static/images/exp1.png" alt="Comparison on NHR and ReRF Dataset" />
-        <h2 class="content has-text-centered">
-          Qualitative comparisons on NHR and ReRF datasets.
-        </h2>
-        <img src="static/images/exp2.png" alt="Comparison on DyNeRF Dataset" />
-        <h2 class="content has-text-centered">
-          Qualitative comparisons on DyNeRF dataset.
-        </h2>
-
-
-
-
-        <img src="static/images/exp3.png" alt="Ablation" />
-        <h2 class="content has-text-justified">
-          Qualitative results of complete TeTriRF model, its variants and ReRF. The variants are compared at approximately matched sizes.
-        </h2>
-        <br>
         <h2 class="subtitle has-text-centered">
           Please refer to our paper for more results.
         </h2>
