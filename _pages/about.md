@@ -32,12 +32,18 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 <div style="clear: both;">&nbsp;</div>
 
 
-# Pubilications
+# Projects
 
-{% for publication in site.publications %}
-  <h2>{{ publication.title }}</h2>
-  <p>{{ publication.excerpt }}</p>
-{% endfor %}
+<div class="ns-project-container">
+    <div class="ns-project">
+        <img src="path_to_image1.jpg" alt="Project Image 1">
+        <div>
+            <div class="ns-project-title">Project Title 1</div>
+            <div class="ns-project-description">Short description of the project.</div>
+        </div>
+    </div>
+    <!-- Repeat for each project -->
+</div>
 
 
 

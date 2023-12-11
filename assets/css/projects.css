@@ -1,0 +1,50 @@
+.ns-project-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.ns-project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.ns-project img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.ns-project-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.ns-project-description {
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .ns-project-container {
+        width: 95%;
+    }
+
+    .ns-project {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .ns-project img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
