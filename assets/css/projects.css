@@ -32,7 +32,7 @@
     color: #666;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 924px) {
     .ns-project-container {
         width: 95%;
     }
