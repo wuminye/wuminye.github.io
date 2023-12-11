@@ -36,10 +36,10 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 
 <div class="ns-project-container">
     <div class="ns-project">
-        <img src="path_to_image1.jpg" alt="Project Image 1">
+        <img src="projects/images/rerf.jpg" alt="ReRF">
         <div>
-            <div class="ns-project-title">Project Title 1</div>
-            <div class="ns-project-description">Short description of the project.</div>
+            <div class="ns-project-title">Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos</div>
+            <div class="ns-project-description">ReRF enables highly compressible and streamable radiance field modeling. Our ReRF-based codec scheme and streaming player gives users a rich interactive experience.</div>
         </div>
     </div>
     <!-- Repeat for each project -->
