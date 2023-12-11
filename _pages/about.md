@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "Minye Wu's Homepage"
+excerpt: "Minye Wu's Homepage"
 author_profile: true
 redirect_from: 
   - /about/

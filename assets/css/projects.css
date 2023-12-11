@@ -69,3 +69,18 @@
         width: 100%; /* Text content takes full width on smaller screens */
     }
 }
+
+
+
+.column {
+    width: 100%;
+    float: none;
+}
+
+/* Styles for larger screens: adjust this breakpoint as needed */
+@media screen and (min-width: 768px) {
+    .column {
+        float: left; /* or 'right' for the second column if needed */
+        width: 50%; /* Adjust the width percentage as needed */
+    }
+}
