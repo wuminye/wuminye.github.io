@@ -40,8 +40,14 @@
 }
 
 .ns-project-link {
-    text-decoration: none;
-    color: inherit; /* This ensures the color of the text remains unchanged */
+    text-decoration: none; /* Removes underline from the link */
+    color: inherit; /* Ensures the text color remains the same as the rest of your content */
+    display: block; /* Makes the link behave like a block element */
+}
+
+.ns-project-link:hover, .ns-project-link:visited {
+    text-decoration: none; /* Removes underline on hover and when visited */
+    color: inherit;
 }
 
 @media (max-width: 868px) {
