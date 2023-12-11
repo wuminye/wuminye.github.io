@@ -35,6 +35,17 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 # Projects
 
 <div class="ns-project-container">
+
+  <a href="https://aoliao12138.github.io/VideoRF/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/videoRF.jpg" alt="VideoRF">
+        <div>
+            <div class="ns-project-title">VideoRF: Rendering Dynamic Radiance Fields as 2D Feature Video Streams</div>
+            <div class="ns-project-description">VideoRF treats dynamic radiance fields as 2D feature streams, leveraging hardware video codecs and shaders for smooth, high-quality rendering on various devices.</div>
+        </div>
+    </div>
+  </a>
+
   <a href="https://aoliao12138.github.io/ReRF/" class="ns-project-link">
     <div class="ns-project">
         <img src="projects/images/rerf.jpg" alt="ReRF">
