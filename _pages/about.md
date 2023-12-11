@@ -12,24 +12,7 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 
 
 
-<div class="row">
-<div class="column" style="float: left; width: 40%;"><!-- 第一列内容 -->
-<h3>Research Interests</h3>
-<ul>
-<li>Neural Rendering</li>
-<li>Computer Vision</li>
-<li>Computational Photography</li>
-</ul>
-</div>
-<div class="column" style="float: right; width: 60%;"><!-- 第二列内容 -->
-<h3>Education</h3>
-<ul>
-<li><strong>[Ph.D.] </strong>University of Chinese Academy of Sciences, 2021</li>
-<li><strong>[Bachelor]</strong> Shanghai University, 2015</li>
-</ul>
-</div>
-</div>
-<div style="clear: both;">&nbsp;</div>
+My research interests lie at the intersection of Neural Rendering, Computer Vision, and Computational Photography, which are areas that I believe are reshaping the way we interact with and interpret the digital world. I earned my Doctorate (Ph.D.) from the University of the Chinese Academy of Sciences, with ShanghaiTech University as my main training institution, in 2021. I received my Bachelor's degree from Shanghai University in 2015.
 
 
 # Projects
