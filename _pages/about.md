@@ -65,6 +65,16 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
         </div>
     </div>
   </a>
+
+  <a href="https://wuminye.github.io/NHR/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/NHR.jpg" alt="NHR">
+        <div>
+            <div class="ns-project-title">Multi-view Neural Human Rendering</div>
+            <div class="ns-project-description">NHR creates photorealistic free-viewpoint videos (FVV) using multi-view dynamic human captures, utilizing point-based neural rendering techniques.</div>
+        </div>
+    </div>
+  </a>
     <!-- Repeat for each project -->
 </div>
 
