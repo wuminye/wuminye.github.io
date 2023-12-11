@@ -39,15 +39,15 @@
     color: #666;
 }
 
-.ns-project-link {
-    text-decoration: none; /* Removes underline from the link */
-    color: inherit; /* Ensures the text color remains the same as the rest of your content */
-    display: block; /* Makes the link behave like a block element */
+.ns-project-container .ns-project-link, 
+.ns-project-container .ns-project-link:hover, 
+.ns-project-container .ns-project-link:visited {
+    text-decoration: none; /* Removes underline from all states */
+    color: inherit; /* Keeps the text color consistent */
 }
 
-.ns-project-link:hover, .ns-project-link:visited {
-    text-decoration: none; /* Removes underline on hover and when visited */
-    color: inherit;
+.ns-project-container .ns-project-link:hover {
+    text-decoration: none; /* Reiterate removal of underline on hover */
 }
 
 @media (max-width: 868px) {
