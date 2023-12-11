@@ -36,6 +36,16 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 
 <div class="ns-project-container">
 
+  <a href="https://wuminye.github.io/projects/TeTriRF/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/TeTriRF.jpg" alt="TeTriRF">
+        <div>
+            <div class="ns-project-title">TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video</div>
+            <div class="ns-project-description">TeTriRF significantly reduces the storage size for Free-Viewpoint Video (FVV) while maintaining low-cost generation and rendering.</div>
+        </div>
+    </div>
+  </a>
+
   <a href="https://aoliao12138.github.io/VideoRF/" class="ns-project-link">
     <div class="ns-project">
         <img src="projects/images/videoRF.jpg" alt="VideoRF">
