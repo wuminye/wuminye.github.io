@@ -1,5 +1,7 @@
+/* Add this to your existing CSS file or inside a <style> tag in your HTML */
+
 .ns-project-container {
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -15,10 +17,15 @@
 }
 
 .ns-project img {
-    width: 150px;
-    height: 150px;
+    width: 40%; /* Image occupies 40% of the project's width */
+    height: auto; /* Maintain aspect ratio */
     margin-right: 20px;
     border-radius: 10px;
+    flex-shrink: 0; /* Prevents the image from shrinking below its width */
+}
+
+.ns-project > div {
+    width: 60%; /* Remaining content occupies 60% of the width */
 }
 
 .ns-project-title {
@@ -32,7 +39,7 @@
     color: #666;
 }
 
-@media (max-width: 924px) {
+@media (max-width: 868px) {
     .ns-project-container {
         width: 95%;
     }
@@ -43,8 +50,11 @@
     }
 
     .ns-project img {
-        width: 100%;
-        height: auto;
+        width: 100%; /* Full width on smaller screens */
         margin-bottom: 20px;
+    }
+
+    .ns-project > div {
+        width: 100%; /* Text content takes full width on smaller screens */
     }
 }
