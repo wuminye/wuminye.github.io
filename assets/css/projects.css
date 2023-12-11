@@ -39,6 +39,11 @@
     color: #666;
 }
 
+.ns-project-link {
+    text-decoration: none;
+    color: inherit; /* This ensures the color of the text remains unchanged */
+}
+
 @media (max-width: 868px) {
     .ns-project-container {
         width: 95%;

@@ -35,6 +35,7 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
 # Projects
 
 <div class="ns-project-container">
+  <a href="https://aoliao12138.github.io/ReRF/" class="ns-project-link">
     <div class="ns-project">
         <img src="projects/images/rerf.jpg" alt="ReRF">
         <div>
@@ -42,6 +43,7 @@ I am currently working as a Postdoctoral Researcher in the VISICS lab, which is 
             <div class="ns-project-description">ReRF enables highly compressible and streamable radiance field modeling. Our ReRF-based codec scheme and streaming player gives users a rich interactive experience.</div>
         </div>
     </div>
+  </a>
     <!-- Repeat for each project -->
 </div>
 
