@@ -22,6 +22,16 @@ redirect_from:
 
 <div class="ns-project-container">
 
+  <a href="https://zehao-wang.github.io/navnuances/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/navdataset.jpg" alt="Navnuances">
+        <div>
+            <div class="ns-project-title">Navigating the Nuances: A Fine-grained Evaluation of Vision-Language Navigation</div>
+            <div class="ns-project-description">This study presents a novel evaluation framework for the Vision-Language Navigation (VLN) task. It aims to diagnose current models for various instruction categories at a finer-grained level. </div>
+        </div>
+    </div>
+  </a>
+
   <a href="https://wuminye.github.io/projects/TeTriRF/" class="ns-project-link">
     <div class="ns-project">
         <img src="projects/images/TeTriRF.jpg" alt="TeTriRF">
