@@ -119,7 +119,7 @@ src="https://c.statcounter.com/12948099/0/0b88a620/1/" alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
 
-<script>
+<script type="text/javascript">
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
