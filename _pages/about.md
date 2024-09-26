@@ -15,12 +15,23 @@ redirect_from:
 
 - I earned my Doctorate (Ph.D.) from the University of the Chinese Academy of Sciences, with ShanghaiTech University as my main training institution, in 2021. I received my Bachelor's degree from Shanghai University in 2015.
 
-- My research interests lie at the intersection of Neural Rendering, Computer Vision, and Computational Photography, which are areas that I believe are reshaping the way we interact with and interpret the digital world. 
+- My research interests lie at the intersection of Neural Rendering and Computer Vision.  My goal is to create easily accessible 3D content and bridge the gap in applying 3D technology to our daily lives.
 
 
 # Projects
 
 <div class="ns-project-container">
+
+  <a href="https://authoritywang.github.io/v3/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/v3.jpg" alt="V3">
+        <div>
+            <div class="ns-project-title">V^3: Viewing Volumetric Videos on Mobiles via Streamable 2D Dynamic Gaussians</div>
+            <div class="ns-project-description">This work presents a novel approach that enables high-quality mobile rendering through the streaming of dynamic Gaussians. </div>
+            <div class="ns-project-description"> SIGGRAPH Asia 2024 (TOG)</div>
+        </div>
+    </div>
+  </a>
 
   <a href="https://zehao-wang.github.io/navnuances/" class="ns-project-link">
     <div class="ns-project">
@@ -28,7 +39,7 @@ redirect_from:
         <div>
             <div class="ns-project-title">Navigating the Nuances: A Fine-grained Evaluation of Vision-Language Navigation</div>
             <div class="ns-project-description">This study presents a novel evaluation framework for the Vision-Language Navigation (VLN) task. It aims to diagnose current models for various instruction categories at a finer-grained level. </div>
-            <div class="ns-project-description"> EMNLP 2024</div>
+            <div class="ns-project-description"> EMNLP 2024 Findings</div>
         </div>
     </div>
   </a>
@@ -107,3 +118,13 @@ href="https://statcounter.com/" target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/12948099/0/0b88a620/1/" alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0b163144ca20585e0c705713e6a9f17a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
