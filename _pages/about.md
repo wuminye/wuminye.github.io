@@ -28,6 +28,7 @@ redirect_from:
         <div>
             <div class="ns-project-title">Navigating the Nuances: A Fine-grained Evaluation of Vision-Language Navigation</div>
             <div class="ns-project-description">This study presents a novel evaluation framework for the Vision-Language Navigation (VLN) task. It aims to diagnose current models for various instruction categories at a finer-grained level. </div>
+            <div class="ns-project-description"> EMNLP 2024</div>
         </div>
     </div>
   </a>
@@ -38,6 +39,7 @@ redirect_from:
         <div>
             <div class="ns-project-title">TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video</div>
             <div class="ns-project-description">TeTriRF significantly reduces the storage size for Free-Viewpoint Video (FVV) while maintaining low-cost generation and rendering.</div>
+            <div class="ns-project-description"> CVPR 2024</div>
         </div>
     </div>
   </a>
@@ -48,16 +50,7 @@ redirect_from:
         <div>
             <div class="ns-project-title">VideoRF: Rendering Dynamic Radiance Fields as 2D Feature Video Streams</div>
             <div class="ns-project-description">VideoRF treats dynamic radiance fields as 2D feature streams, leveraging hardware video codecs and shaders for smooth, high-quality rendering on various devices.</div>
-        </div>
-    </div>
-  </a>
-
-  <a href="https://aoliao12138.github.io/ReRF/" class="ns-project-link">
-    <div class="ns-project">
-        <img src="projects/images/rerf.jpg" alt="ReRF">
-        <div>
-            <div class="ns-project-title">Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos</div>
-            <div class="ns-project-description">ReRF enables highly compressible and streamable radiance field modeling. Our ReRF-based codec scheme and streaming player gives users a rich interactive experience.</div>
+            <div class="ns-project-description"> CVPR 2024</div>
         </div>
     </div>
   </a>
@@ -68,9 +61,23 @@ redirect_from:
         <div>
             <div class="ns-project-title">NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences</div>
             <div class="ns-project-description">NeVRF marries neural radiance field with image-based rendering to support photo-realistic novel view synthesis on long-duration dynamic scenes.</div>
+            <div class="ns-project-description"> 3DV 2024</div>
         </div>
     </div>
   </a>
+
+  <a href="https://aoliao12138.github.io/ReRF/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/rerf.jpg" alt="ReRF">
+        <div>
+            <div class="ns-project-title">Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos</div>
+            <div class="ns-project-description">ReRF enables highly compressible and streamable radiance field modeling. Our ReRF-based codec scheme and streaming player gives users a rich interactive experience.</div>
+            <div class="ns-project-description"> CVPR 2023</div>
+        </div>
+    </div>
+  </a>
+
+ 
 
   <a href="https://wuminye.github.io/NHR/" class="ns-project-link">
     <div class="ns-project">
@@ -78,6 +85,7 @@ redirect_from:
         <div>
             <div class="ns-project-title">Multi-view Neural Human Rendering</div>
             <div class="ns-project-description">NHR creates photorealistic free-viewpoint videos (FVV) using multi-view dynamic human captures, utilizing point-based neural rendering techniques.</div>
+            <div class="ns-project-description"> CVPR 2020</div>
         </div>
     </div>
   </a>
