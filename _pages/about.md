@@ -11,16 +11,28 @@ redirect_from:
 
 
 
-- I am currently working as a Postdoctoral Researcher in the VISICS lab, which is part of ESAT-PSI at Katholieke Universiteit Leuven, under the mentorship of [Prof. Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). I obtained my Ph.D. degree from the VDI Center at the School of Information Science and Technology, ShanghaiTech University, where I was supervised by [Prof. Jingyi Yu](http://www.yu-jingyi.com/cv/). 
+- I am currently working as a Postdoctoral Researcher in the VISICS lab, which is part of ESAT-PSI at Katholieke Universiteit Leuven (KU Leuven), under the mentorship of [Prof. Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT). I obtained my Ph.D. degree from the VDI Center at the School of Information Science and Technology, ShanghaiTech University, where I was supervised by [Prof. Jingyi Yu](http://www.yu-jingyi.com/cv/). 
 
-- I earned my Doctorate (Ph.D.) from the University of the Chinese Academy of Sciences, with ShanghaiTech University as my main training institution, in 2021. I received my Bachelor's degree from Shanghai University in 2015.
+- I earned my Doctorate (Ph.D.) from the University of the Chinese Academy of Sciences, with ShanghaiTech University as my main training institution, in 2021.
 
-- My research interests lie at the intersection of Neural Rendering and Computer Vision.  My goal is to create easily accessible 3D content and bridge the gap in applying 3D technology to our daily lives.
+- My research focuses on computer vision and 3D representation, including novel view synthesis, volumetric videos, 3D reconstruction, and other 3D-related tasks.
 
 
 # Projects
 
 <div class="ns-project-container">
+
+
+  <a href="https://wuminye.github.io/projects/BGTriangle/" class="ns-project-link">
+    <div class="ns-project">
+        <img src="projects/images/bgtriangle.png" alt="BG-Triangle">
+        <div>
+            <div class="ns-project-title">BG-Triangle: Bézier Gaussian Triangle for 3D Vectorization and Rendering</div>
+            <div class="ns-project-description">BG-Triangle can transform multi-view images into vectorized 3D scenes, enabling the rendering of sharp novel views. </div>
+            <div class="ns-project-description"> CVPR 2025</div>
+        </div>
+    </div>
+  </a>
 
   <a href="https://authoritywang.github.io/v3/" class="ns-project-link">
     <div class="ns-project">
